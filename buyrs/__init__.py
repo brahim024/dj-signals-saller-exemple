@@ -1,1 +1,1 @@
-default_app_config='buyrs.app.BuyrsConfig'
+default_app_config='buyrs.apps.BuyrsConfig'
