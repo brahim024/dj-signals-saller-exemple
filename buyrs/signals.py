@@ -10,4 +10,4 @@ def create_buyer_save(sender,instance,created,**kwargs):
 	print('instance',instance)
 	print('created',created)
 	if created:
-		Buyer.objects.create(user=instance)
+		Buyer.objects.create(user=instance) 
