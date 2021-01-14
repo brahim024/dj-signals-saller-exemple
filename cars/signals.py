@@ -3,9 +3,9 @@ from django.dispatch import receiver
 from .models import Car
 import uuid
 
-'''
-@receiver(pre_save,sender=Car)
+
+'''@receiver(pre_save,sender=Car)
 def save(sender,instance,**kwargs):
 	if instance.code=="":
 		instance.code=str(uuid.uuid4()).replace("-","").upper()[:10]
-	'''
+		instance.save()'''
